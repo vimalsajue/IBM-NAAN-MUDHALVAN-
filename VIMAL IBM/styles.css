@@ -1,0 +1,59 @@
+body {
+  background-color: #f8e6c7; /* light beige */
+  color: #4d4d4d; /* dark grey */
+  font-family: 'Courier New', monospace;
+}
+
+nav {
+  background-color: #4d4d4d; /* dark grey */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+nav a {
+  color: #f8e6c7; /* light beige */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  color: #d9b48f; /* light brown */
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin: 1em 0;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border: 10px solid #4d4d4d; /* dark grey */
+  box-shadow: 5px 5px 5px #4d4d4d; /* dark grey */
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
